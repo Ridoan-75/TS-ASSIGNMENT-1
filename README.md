@@ -1,5 +1,3 @@
-# TypeScript - Interfaces vs Types এবং Enums
-
 ## প্রশ্ন ১: TypeScript-এ Interface এবং Type এর মধ্যে পার্থক্য কী?
 
 ### Interface
