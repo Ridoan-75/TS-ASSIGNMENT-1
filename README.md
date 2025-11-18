@@ -14,7 +14,7 @@
 
 5. মূলত object, class structure define করার জন্য ভালো।
 
-#### উদাহরণ ১: Object-এর Shape নির্ধারণ
+#### উদাহরণ ১: Object এর Shape নির্ধারণ
 
 ```typescript
 interface User {
@@ -52,7 +52,7 @@ class Dog implements Animal {
 
 2. Interface এর মতো inheritance করতে intersection (&) ব্যবহার করতে হয়।
 
-3. Type merge হয় না—same name দিলে error আসে।
+3. Type merge হয় না same name দিলে error আসে।
 
 4. Type বেশি flexible, কারণ union এবং tuple Type-এ define করা যায়।
 
@@ -86,7 +86,7 @@ let currentStatus: Status = "success";
 
 2. Interface এবং Type দুটোই TypeScript-এর শক্তিশালী tools ব্যবহার পরিস্থিতি অনুযায়ী সঠিকটি নির্বাচন করা সবচেয়ে গুরুত্বপূর্ণ।
 
-3. যখন object বা class-এর structure define করতে হয় তখন Interface; আর যখন union, tuple বা complex type তৈরি করতে হয় তখন Type ব্যবহার করা উত্তম।
+3. যখন object বা class-এর structure define করতে হয় তখন Interface আর যখন union, tuple বা complex type তৈরি করতে হয় তখন Type ব্যবহার করা উত্তম।
 
 4. Interface-এ inheritance এবং auto-merge সুবিধা আছে আর Type-এ flexibility এবং union/intersection সুবিধা।
 
@@ -100,7 +100,7 @@ let currentStatus: Status = "success";
 
 Enum হলো TypeScript-এর একটি বিশেষ non-primitive data type যা আমরা ব্যবহার করি related constant values একত্রে সংগঠিত করে রাখার জন্য। সাধারণ ভ্যালুর পরিবর্তে Meaningful নাম ব্যবহার করলে কোড অনেক বেশি readable হয়, ভুল কম হয়, আর বড় প্রজেক্টে consistency বজায় রাখা সহজ হয়।
 
-### TypeScript-এ Enum ব্যবহার করলে:
+### TypeScript এ Enum ব্যবহার করলে:
 
 1. কোড self documented হয়ে যায়
 
